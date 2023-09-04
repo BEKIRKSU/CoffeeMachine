@@ -37,7 +37,7 @@ while is_on:
         is_on = False
     elif choice == "report":
         print(f"water: {resources['water']}ml")
-        print(f"milk {resources['water']}")
+        print(f"milk: {resources['water']}")
         print(f"coffee: 100")
         print(f"money: $2.5")
 
