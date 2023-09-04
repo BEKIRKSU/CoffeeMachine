@@ -39,4 +39,5 @@ while is_on:
         print(f"water: 300"),
         print(f"milk 200"),
         print(f"coffee: 100"),
-        
+        print(f"money: $2.5"),
+
