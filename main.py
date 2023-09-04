@@ -52,7 +52,12 @@ def process_coins():
 
 def is_transaction_successful(money_received, drink_cost):
     """Return True when payment is enough/accepted. False if vv."""
-    
+    if money_received >= drink_cost:
+        return True
+    else:
+        print("Sorry that's not enough money.")
+        return False
+#     Return has to be the last thing in the function. If it's before print, print wouldn't be called.
 
 
 is_on = True
