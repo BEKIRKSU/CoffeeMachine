@@ -54,6 +54,7 @@ def is_transaction_successful(money_received, drink_cost):
     """Return True when payment is enough/accepted. False if vv."""
     if money_received >= drink_cost:
         global profit
+        # You call the global variable into the local area in order to use it.
         profit += drink_cost
         return True
     else:
