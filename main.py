@@ -42,4 +42,5 @@ while is_on:
         print(f"Money: ${profit}")
     else:
         drink = MENU[choice]
+        print(drink)
 
