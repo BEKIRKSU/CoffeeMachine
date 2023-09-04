@@ -53,6 +53,8 @@ def process_coins():
 def is_transaction_successful(money_received, drink_cost):
     """Return True when payment is enough/accepted. False if vv."""
     if money_received >= drink_cost:
+        global profit
+        profit += drink_cost
         return True
     else:
         print("Sorry that's not enough money.")
