@@ -40,7 +40,9 @@ def is_resource_sufficient(order_ingredients):
             is_enough = False
     return is_enough
 
-
+def process_coins():
+    print("Please insert coins.")
+    total = int(input("how many quarters?: ")) * 0.25
 
 is_on = True
 
@@ -55,7 +57,8 @@ while is_on:
         print(f"Money: ${profit}")
     else:
         drink = MENU[choice]
-        is_resource_sufficient(drink["ingredients"])
+        if is_resource_sufficient(drink["ingredients"]):
+
 
 
 
