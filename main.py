@@ -79,7 +79,7 @@ def make_coffee(drink_name, order_ingredients):
 is_on = True
 
 while is_on:
-    choice = input("What would you like? (Espresso/Latte/Cappuccino):")
+    choice = input("What would you like? (Espresso/Latte/Cappuccino): ")
     if choice == "off":
         is_on = False
     elif choice == "report":
