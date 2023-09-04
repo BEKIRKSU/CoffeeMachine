@@ -29,6 +29,9 @@ resources = {
     "milk": 200,
     "coffee": 100,
 }
+
+def is_resource_sufficient(order_ingridients):
+    
 is_on = True
 
 while is_on:
@@ -42,5 +45,6 @@ while is_on:
         print(f"Money: ${profit}")
     else:
         drink = MENU[choice]
-        print(drink)
+
+
 
