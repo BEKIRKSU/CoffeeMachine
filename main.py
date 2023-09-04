@@ -1,3 +1,5 @@
+
+# Check order_ingredients inside the parentheses.
 MENU = {
     "espresso": {
         "ingredients": {
@@ -31,6 +33,7 @@ resources = {
 }
 
 def is_resource_sufficient(order_ingredients):
+
 
 is_on = True
 
