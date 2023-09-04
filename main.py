@@ -36,3 +36,7 @@ while is_on:
     if choice == "off":
         is_on = False
     elif choice == "report":
+        print(f"water: 300"),
+        print(f"milk 200"),
+        print(f"coffee: 100"),
+        
